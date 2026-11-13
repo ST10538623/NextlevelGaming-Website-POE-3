@@ -1,0 +1,99 @@
+.offerings-table-section {
+  padding-top: 20px;
+}
+
+.offerings-table-section h2 {
+  margin: 0 0 8px;
+  font: 700 clamp(25px, 3vw, 34px)/1.15 'Space Grotesk', sans-serif;
+}
+
+.offerings-table-section > p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.offerings-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  scrollbar-color: var(--blue) var(--panel);
+}
+
+.offerings-table-wrap:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.offerings-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.offerings-table caption {
+  padding: 14px 18px;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: left;
+}
+
+.offerings-table th,
+.offerings-table td {
+  padding: 13px 18px;
+  border-top: 1px solid var(--line);
+}
+
+.offerings-table th {
+  color: #b7caff;
+  background: #202b49;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.offerings-table td {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.offerings-table td:first-child {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.offerings-table td:last-child {
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.offerings-table tbody tr:nth-child(even) {
+  background: #ffffff04;
+}
+
+.offerings-table tbody tr:hover {
+  background: #3c7cff12;
+}
+
+.table-scroll-hint {
+  display: none;
+  margin-top: 9px !important;
+  font-size: 11px !important;
+}
+
+.savings-note.error {
+  color: #ff9eac;
+}
+
+@media (max-width: 760px) {
+  .offerings-table-section {
+    padding-top: 0;
+  }
+
+  .table-scroll-hint {
+    display: block;
+  }
+}
