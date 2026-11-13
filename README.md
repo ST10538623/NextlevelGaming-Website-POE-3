@@ -1,4 +1,5 @@
-# Next Level Gaming & Esports Arena — XHAW5112
+# Next Level Gaming & Esports Arena 
+
 
 A responsive HTML/CSS/JavaScript website starter based on Scenario 3: Gaming & Esports Arena.
 
@@ -32,13 +33,3 @@ You can also open `index.html` directly in a browser, although Live Server is re
 - 4 or more distinct selected offerings: 15%
 
 The calculator uses the supplied scenario prices. It is a front-end estimate only; it does not create a real reservation or accept payment.
-
-## Important before submission
-- Confirm any additional requirements with the official module brief.
-- Contact details are not invented. Add verified business contact information if supplied by your lecturer.
-- This site is the website phase, not the Android mobile application. The mobile app must be developed separately with equivalent offerings, details, navigation and calculator behaviour.
-- The home page and remaining artwork use CSS gradients and decorative emoji; the Ultimate Gamer Pass uses `assets/images/ultimate-gamer-pass-banner.jpg`, the VIP Gaming Experience uses `assets/images/vip-gaming-booth.png`, the Esports Training Package uses `assets/images/esports-training.jpg`, the Virtual Reality Experience uses `assets/images/virtual-reality-experience.jpg`, the Racing Simulator Challenge uses `assets/images/racing-simulator.png`, the Escape Room Challenge uses `assets/images/escape-room-challenge.png`, and the Birthday Party Package uses `assets/images/birthday-party.png`.
-- Google Fonts are optional enhancements; the site falls back to system fonts if the fonts cannot load.
-
-## GitHub
-Create a repository on GitHub, then follow the setup and push instructions in your project manual. Do not commit passwords, tokens or other secrets.
